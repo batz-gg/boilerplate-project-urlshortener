@@ -1,3 +1,9 @@
 .vscode/*
 .env
 node_modules/
+.gitattributes
+.prettierignore
+nodemon.json
+sample.env
+yarn.lock
+package-lock.json
