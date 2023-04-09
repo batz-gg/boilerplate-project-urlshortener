@@ -58,7 +58,13 @@ app.get('/api/shorturl/:short_url', (req, res) => {
   }
 });
 
+//#region
+/* / * Энэ төсөл нь хэрэглэгчдийг URL-ийг богиносгох боломжийг олгодог энгийн API үүсгэхэд хүргэдэг.API нь хүсэлтийн биед URL-тэй хамт Post Post хүсэлтийг хүлээн аваад анхны URL, богино URL-ийг агуулсан JSON объектыг буцаана.Хэрэглэгчийн айлчлал / API / POTELTURL / <BOTELLETLE / <BOTELLING> Эдгээр URL руу дахин чиглүүлж байна.
 
+Та энэ кодыг (E.G., Server.JS) ашиглан файлыг (E.G., Server.Js) -ийг ажиллуулж, NPM Sploper-ийг url url-ийг суулгаж, зангилааны сервер ашиглан файлыг ажиллуулж болно.Сервер нь http: // lockhost: // lockhost: 3000: 3000 / API / POLLURL-ийг авах замаар API-г шалгаж болно.
+</ Богино_ур> */
+
+//#endregion
 app.listen(port, function() {
   console.log(`Listening on port ${port}`);
 });
